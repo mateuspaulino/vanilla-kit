@@ -1,0 +1,9 @@
+@mixin set-font($size, $family, $color) {
+	font-size: $size;
+	font-family: $family;
+	color: $color;
+}
+
+@function p($son, $dad){
+	@return ($son/$dad)*100%;
+}

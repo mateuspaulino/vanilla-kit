@@ -1,0 +1,44 @@
+$serverURL: '' !default;
+
+/*
++---------------------------------+
+ COLORS
++---------------------------------+
+*/
+
+$blue: #3498db;
+$blue-dark: #0d74b9;
+$black-smooth: #222222;
+$gray: #848484;
+$gray-bg: #e7e7e7;
+$gray-border: #e5e5e5;
+$gray-icon: #d4d4d4;
+
+/*
++---------------------------------+
+ FONTS
++---------------------------------+
+*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+//closest to Myriad Pro
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700');
+
+$fp: 'Pacifico', cursive;
+$fh: Helvetica , Arial, sans-serif;
+$fm: 'Myriad Pro' , 'PT Sans', sans-serif;
+
+/*
++---------------------------------+
+ BREAKPOINTS - Grid based
++---------------------------------+
+*/
+
+$desktop-width: 1200px;
+$header-width: 1000px;
+$tablet-width: 1024px;
+$carousel-width: 1040px;
+$carousel-width: 900px;
+$feature-one-column: 714px;
+$plans-two-columns: 1170px;
+$mobile-width: 640px;
+$mobile-width-small-devices: 460px;
